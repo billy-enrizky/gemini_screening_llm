@@ -47,7 +47,7 @@ EXCLUSION_CRITERIA_LIST = [
 
 # --- LLM Model Setup ---
 # For text-based tasks, gemini-pro is suitable
-model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25')
+model = genai.GenerativeModel('models/gemini-2.0-flash')
 
 # --- Helper Function to Create Prompt ---
 def create_prompt(title, abstract):
